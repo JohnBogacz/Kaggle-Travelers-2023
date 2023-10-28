@@ -51,3 +51,9 @@ $$
 - $\Large \frac{\sum_{i=1}^{n_{e}}y_{i}R(\hat{y_{i}})}{\sum_{i=1}^{n_{e}}y_{i}}$ = represents the fraction of models predicted claim cost vs true claim cost, by summing up products fo actual costs and their predicted rankings.
 - $\Large \sum_{i=1}^{n_{e}}\frac{n_{e}-i+1}{n_{e}}$ = calculates the sum of a series of decreasing values, representing the ideal case of ranking.
 - Benchmark score = 0.18029
+
+## Dataset
+explanation
+
+# Submission
+explanation
