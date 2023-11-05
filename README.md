@@ -36,7 +36,7 @@ Decision trees split the data based on the features in order to predict some num
 
 $$
 \LARGE
-G = \frac{\frac{\sum_{i=1}^{n_{e}}y_{i}R(\hat{y_{i}})}{\sum_{i=1}^{n_{e}}y_{i}} - \sum_{i=1}^{n_{e}}\frac{n_{e}-i+1}{n_{e}}}{\frac{\sum_{i=1}^{n_{e}}y_{i}R(y_{i})}{\sum_{i=1}^{n_{e}}y_{i}} - \sum_{i=1}^{n_{e}}\frac{n_{e}-i+1}{n_{e}}}
+G = \frac{(\frac{\sum_{i=1}^{n_{e}}y_{i}R(\hat{y_{i}})}{\sum_{i=1}^{n_{e}}y_{i}}) - (\sum_{i=1}^{n_{e}}\frac{n_{e}-i+1}{n_{e}})}{(\frac{\sum_{i=1}^{n_{e}}y_{i}R(y_{i})}{\sum_{i=1}^{n_{e}}y_{i}}) - (\sum_{i=1}^{n_{e}}\frac{n_{e}-i+1}{n_{e}})}
 $$
 
 - $y_{i}$ := true claim cost
