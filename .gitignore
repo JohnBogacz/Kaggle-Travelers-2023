@@ -166,3 +166,4 @@ cython_debug/
 # datasets
 dataset/*
 !dataset/.gitignore
+!dataset/EncryptedCompressedData_TravelersKaggle2023.7z
